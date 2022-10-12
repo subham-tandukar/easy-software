@@ -2576,15 +2576,17 @@ footer {
 .vacancy {
   margin-bottom: 8rem;
   .vacancy-content {
+    position: relative;
+    width: max-content;
     h2 {
       font-weight: bold;
       margin: 0;
     }
-    .vacancy-wrap{
-      h4{
-        margin-right: 12rem;
-      }
-       .uk-button {
+    .vacancy-btn {
+      position: absolute;
+      top: 0;
+      right: -140px;
+      .uk-button {
         text-transform: capitalize;
         background: $primary-color;
         border-radius: 9px;
@@ -2601,8 +2603,6 @@ footer {
           display: block;
           margin: 0.3rem;
         }
-
-       
       }
     }
   }

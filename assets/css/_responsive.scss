@@ -154,6 +154,12 @@
       padding: 2rem !important;
     }
   }
+
+  .vacancy {
+    .vacancy-btn {
+      right: -90px !important;
+    }
+  }
 }
 
 @media (max-width: 1051px) {
@@ -161,6 +167,11 @@
     .banner-txt h1 {
       font-size: 30px;
       line-height: 50px;
+    }
+  }
+  .vacancy {
+    .vacancy-btn {
+      right: 0 !important;
     }
   }
 }
@@ -322,11 +333,7 @@
 
   .vacancy {
     margin-bottom: 4rem;
-    .vacancy-wrap {
-      h4 {
-        margin-right: 9rem !important;
-      }
-    }
+
     .vacancy-content {
       margin-top: 2rem;
     }
@@ -334,6 +341,10 @@
       img {
         width: 100%;
       }
+    }
+
+    .vacancy-btn {
+      right: -140px !important;
     }
   }
 }
@@ -650,6 +661,11 @@
           }
         }
       }
+    }
+  }
+  .vacancy {
+    .vacancy-btn {
+      right: 0 !important;
     }
   }
 }
