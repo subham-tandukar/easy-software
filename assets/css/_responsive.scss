@@ -319,6 +319,23 @@
     margin: 0 auto;
     padding-bottom: 10rem;
   }
+
+  .vacancy {
+    margin-bottom: 4rem;
+    .vacancy-wrap {
+      h4 {
+        margin-right: 9rem !important;
+      }
+    }
+    .vacancy-content {
+      margin-top: 2rem;
+    }
+    .vacancy-img {
+      img {
+        width: 100%;
+      }
+    }
+  }
 }
 
 @media (max-width: 767px) {

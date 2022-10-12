@@ -2355,6 +2355,39 @@ footer .footer-end hr {
   border-bottom: 1px solid #555;
 }
 
+.vacancy {
+  margin-bottom: 8rem;
+}
+.vacancy .vacancy-content h2 {
+  font-weight: bold;
+  margin: 0;
+}
+.vacancy .vacancy-content .vacancy-wrap h4 {
+  margin-right: 12rem;
+}
+.vacancy .vacancy-content .vacancy-wrap .uk-button {
+  text-transform: capitalize;
+  background: #d1e5ff;
+  border-radius: 9px;
+  transition: all 0.3s ease-in-out;
+  cursor: text;
+}
+.vacancy .vacancy-content .vacancy-wrap .uk-button p {
+  background: linear-gradient(91.47deg, #101b9a 0.29%, #e91a33 62.1%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+  display: block;
+  margin: 0.3rem;
+}
+.vacancy .vacancy-img img {
+  width: 75%;
+  margin: 0 auto;
+  display: block;
+}
+
 @media (max-width: 1350px) {
   .section-about-us {
     min-height: 50vw;
@@ -2608,6 +2641,18 @@ footer .footer-wrapper .footer-contact {
     width: 75%;
     margin: 0 auto;
     padding-bottom: 10rem;
+  }
+  .vacancy {
+    margin-bottom: 4rem;
+  }
+  .vacancy .vacancy-wrap h4 {
+    margin-right: 9rem !important;
+  }
+  .vacancy .vacancy-content {
+    margin-top: 2rem;
+  }
+  .vacancy .vacancy-img img {
+    width: 100%;
   }
 }
 @media (max-width: 767px) {

@@ -1419,7 +1419,7 @@ footer {
       object-fit: cover;
     }
 
-    &:hover{
+    &:hover {
       transform: scale(1.1);
     }
   }
@@ -1992,7 +1992,7 @@ footer {
 .login-form {
   .form-box {
     padding: 2rem 4rem !important;
-    .uk-input{
+    .uk-input {
       height: 50px !important;
     }
   }
@@ -2569,6 +2569,48 @@ footer {
       border-radius: 9px 9px 0 0;
       letter-spacing: 1px;
       border-bottom: 1px solid #555;
+    }
+  }
+}
+
+.vacancy {
+  margin-bottom: 8rem;
+  .vacancy-content {
+    h2 {
+      font-weight: bold;
+      margin: 0;
+    }
+    .vacancy-wrap{
+      h4{
+        margin-right: 12rem;
+      }
+       .uk-button {
+        text-transform: capitalize;
+        background: $primary-color;
+        border-radius: 9px;
+        transition: $transition;
+        cursor: text;
+
+        p {
+          background: linear-gradient(91.47deg, $blue 0.29%, $red 62.1%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          font-size: 16px;
+          transition: $transition;
+          display: block;
+          margin: 0.3rem;
+        }
+
+       
+      }
+    }
+  }
+  .vacancy-img {
+    img {
+      width: 75%;
+      margin: 0 auto;
+      display: block;
     }
   }
 }
