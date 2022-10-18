@@ -2575,43 +2575,56 @@ footer {
 
 .vacancy {
   margin-bottom: 8rem;
-  .vacancy-content {
-    position: relative;
-    width: max-content;
-    h2 {
-      font-weight: bold;
-      margin: 0;
-    }
-    .vacancy-btn {
-      position: absolute;
-      top: 0;
-      right: -140px;
-      .uk-button {
-        text-transform: capitalize;
-        background: $primary-color;
-        border-radius: 9px;
-        transition: $transition;
-        cursor: text;
 
-        p {
-          background: linear-gradient(91.47deg, $blue 0.29%, $red 62.1%);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-          background-clip: text;
-          font-size: 16px;
+  .vacancy-wrapper {
+    background: #ffffff;
+    box-shadow: -5px -6px 15px rgba(0, 0, 0, 0.08),
+      5px 6px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 9px;
+    padding: 1rem;
+    margin: 0;
+    .vacancy-content {
+      position: relative;
+      width: max-content;
+      h4 {
+        font-weight: bold;
+        margin: 0;
+        margin-bottom: 1rem;
+
+        span {
+          font-weight: normal;
+        }
+      }
+      p {
+        color: #000;
+        margin: 0.5rem 0;
+      }
+      .vacancy-btn {
+        display: flex;
+        flex-wrap: wrap;
+        .uk-button {
+          text-transform: capitalize;
+          background: $primary-color;
+          border-radius: 9px;
           transition: $transition;
-          display: block;
-          margin: 0.3rem;
+          cursor: text;
+          margin-right: 0.5rem;
+          margin-bottom: 1rem;
+
+          p {
+            background: linear-gradient(91.47deg, $blue 0.29%, $red 62.1%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-size: 16px;
+            transition: $transition;
+            display: block;
+            margin: 0.3rem;
+          }
         }
       }
     }
-  }
-  .vacancy-img {
-    img {
-      width: 75%;
-      margin: 0 auto;
-      display: block;
-    }
+    //
   }
 }
 

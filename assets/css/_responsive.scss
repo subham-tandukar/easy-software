@@ -154,12 +154,6 @@
       padding: 2rem !important;
     }
   }
-
-  .vacancy {
-    .vacancy-btn {
-      right: -90px !important;
-    }
-  }
 }
 
 @media (max-width: 1051px) {
@@ -167,11 +161,6 @@
     .banner-txt h1 {
       font-size: 30px;
       line-height: 50px;
-    }
-  }
-  .vacancy {
-    .vacancy-btn {
-      right: 0 !important;
     }
   }
 }
@@ -332,20 +321,7 @@
   }
 
   .vacancy {
-    margin-bottom: 4rem;
-
-    .vacancy-content {
-      margin-top: 2rem;
-    }
-    .vacancy-img {
-      img {
-        width: 100%;
-      }
-    }
-
-    .vacancy-btn {
-      right: -140px !important;
-    }
+    margin-bottom: 1rem;
   }
 }
 
@@ -664,8 +640,11 @@
     }
   }
   .vacancy {
-    .vacancy-btn {
-      right: 0 !important;
+    .vacancy-wrapper {
+      padding: 2rem 1rem;
+      .vacancy-content {
+        margin-top: 1rem;
+      }
     }
   }
 }
@@ -953,5 +932,14 @@
   }
   .login-form {
     padding: 4rem 1rem !important;
+  }
+  .vacancy {
+    margin-bottom: 0 !important;
+    .vacancy-wrapper {
+      padding: 1rem 0 !important;
+      .vacancy-content {
+        padding-left: 20px;
+      }
+    }
   }
 }
