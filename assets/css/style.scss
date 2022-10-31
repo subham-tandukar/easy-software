@@ -2588,6 +2588,8 @@ footer {
     margin-bottom: 3rem;
     width: 75%;
     position: relative;
+    border: 1px solid #fff;
+    transition: $transition;
     .vacancy-wrapper {
       margin-bottom: 1rem;
       img {
@@ -2636,6 +2638,7 @@ footer {
           transition: $transition;
           cursor: text;
           margin-right: 0.5rem;
+          margin-top: 0.5rem;
           margin-bottom: 1rem;
 
           p {
@@ -2664,6 +2667,11 @@ footer {
       span {
         font-size: 14px;
       }
+    }
+
+    &:hover{
+      border: 1px solid rgb(208 208 208);
+      transform: translateY(-10px)
     }
   }
 }
