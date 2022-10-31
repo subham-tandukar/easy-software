@@ -321,7 +321,7 @@
   }
 
   .vacancy {
-    margin-bottom: 1rem;
+    margin-bottom: 8rem;
   }
 }
 
@@ -450,6 +450,15 @@
     .main-content-page {
       h1 {
         font-size: 25px;
+      }
+    }
+  }
+  .vacancy {
+    .wrapper {
+      padding: 2rem 1rem;
+      width: 100%;
+      .vacancy-content {
+        margin-top: 1rem;
       }
     }
   }
@@ -636,14 +645,6 @@
             margin-bottom: 3rem;
           }
         }
-      }
-    }
-  }
-  .vacancy {
-    .vacancy-wrapper {
-      padding: 2rem 1rem;
-      .vacancy-content {
-        margin-top: 1rem;
       }
     }
   }
@@ -934,9 +935,8 @@
     padding: 4rem 1rem !important;
   }
   .vacancy {
-    margin-bottom: 0 !important;
-    .vacancy-wrapper {
-      padding: 1rem 0 !important;
+    margin-bottom: 5rem !important;
+    .wrapper {
       .vacancy-content {
         padding-left: 20px;
       }
